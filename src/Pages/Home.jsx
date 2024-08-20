@@ -15,7 +15,6 @@ const Home = () => {
 					<div id="AngkaGradientBlue" className="flex items-center justify-center ">
 						36
 					</div>
-					</div>
 					<div id="AngkaGradientPink" className="flex items-center justify-center">
 						12
 					</div>
