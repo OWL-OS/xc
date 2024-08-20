@@ -7,6 +7,7 @@ const Selasa = React.lazy(() => import("../components/Mapel/Selasa"))
 const Rabu = React.lazy(() => import("../components/Mapel/Rabu"))
 const Kamis = React.lazy(() => import("../components/Mapel/Kamis"))
 const Jumat = React.lazy(() => import("../components/Mapel/Jumat"))
+const Sabtu = React.lazy(() => import("../components/Mapel/Sabtu"))
 
 const Schedule = () => {
     const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
@@ -21,11 +22,12 @@ const Schedule = () => {
 
     // Menentukan kelompok piket berdasarkan hari
     piketGroup = [
-        ["Amel", "Helmalia", "Fadli I", "Shera", "Nicollas"],
-        ["Windi", "Lista", "Jeriko", "Pratiwi", "Damar"],
-        ["Putri", "Paulista", "Firdaus", "Attala", "Ardian"],
-        ["Cariska", "Nila", "Wahid", "Togi", "Annisa"],
-        ["Sultan", "Zaini", "Fajri", "Arif"],
+        ["Anin", "Wilson", "Nike", "Ari", "Nanda", "Raihan"],
+        ["Fadlah", "Shila", "Diah R", "Hasan", "Sevana", "Abil"],
+        ["Wulan", "Zaskia", "Rizqi Aditya", "Adelia", "Rohmat", "Deka"],
+        ["Harits", "Dony", "Kevin", "Trian", "Diah Ayu", "Tsabit"],
+        ["Sefa", "Rafi", "Ghailan", "Elsa", "Gilang", "Alinda"],
+        ["M.Rizky", "Dwi Cinta", "Reisya", "Safitri", "Intan", "Rido"],
     ]
 
     const dayComponents = [
@@ -35,6 +37,7 @@ const Schedule = () => {
         Rabu,
         Kamis,
         Jumat,
+        Sabtu,
     ]
 
     // Menampilkan komponen berdasarkan hari saat ini
