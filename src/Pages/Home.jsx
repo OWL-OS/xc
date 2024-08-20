@@ -31,6 +31,7 @@ const Home = () => {
 				</div>
 			</div>
 
+			{/* Dekstop */}
 			<div className="hidden lg:block">
 				<div className="flex justify-center items-center flex-col h-[100vh]">
 					<h5 className="text-[1.4rem] font-semibold">Hi, Visitor!</h5>
