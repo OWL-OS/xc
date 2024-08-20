@@ -33,7 +33,6 @@ const Home = () => {
 						<BoxClassIg />
 					</div>
 					<div className="grid gap-2 md:gap-0 md:grid-cols-1">
-						<BoxOldWeb />
 						<BoxTextAnonim />
 					</div>
 				</div>
