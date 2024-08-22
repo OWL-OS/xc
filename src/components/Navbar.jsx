@@ -80,7 +80,7 @@ const Navbar = () => {
 						</a>
 					</li>
 					<li>
-						<a href="wiki.html" className="text-white opacity-80 text-[1rem] font-semibold">
+						<a href="#wiki.html" className="text-white opacity-80 text-[1rem] font-semibold">
 							Article
 						</a>
 					</li>
