@@ -50,6 +50,11 @@ const Navbar = () => {
 								Structure & Schedule
 							</a>
 						</li>
+						<li>
+							<a href="wiki.html" className="text-white opacity-80 text-lg font-bold">
+								Article
+							</a>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -72,6 +77,11 @@ const Navbar = () => {
 					<li>
 						<a href="#Tabs" className="text-white opacity-80 text-[1rem] font-semibold">
 							Structure & Schedule
+						</a>
+					</li>
+					<li>
+						<a href="wiki.html" className="text-white opacity-80 text-lg font-bold">
+							Article
 						</a>
 					</li>
 				</ul>
