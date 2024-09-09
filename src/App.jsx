@@ -5,6 +5,7 @@ import FullWidthTabs from "./Pages/Tabs"
 import Footer from "./Pages/Footer"
 import Chat from "./components/ChatAnonim"
 import AOS from "aos"
+import Article from "./wiki.html"
 import "aos/dist/aos.css"
 
 function App() {
